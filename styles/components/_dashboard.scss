@@ -1,0 +1,29 @@
+.dashboard {
+  padding: 37px 28px 76px;
+  margin-bottom: 64px;
+  &-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+    &:hover {
+      scale: 1.05;
+    }
+    &__name {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 26px;
+      letter-spacing: 0.01em;
+      color: #000;
+    }
+    &__txt {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 10px;
+      letter-spacing: -0.01em;
+      color: #838383;
+      margin-left: -4px;
+      margin-bottom: -10px;
+    }
+  }
+}

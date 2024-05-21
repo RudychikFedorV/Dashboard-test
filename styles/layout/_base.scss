@@ -1,0 +1,18 @@
+html {
+  font-size: var(--html-fs);
+}
+body {
+  font-size: 16px;
+  --font-family: var(--ff);
+  background: #000;
+}
+.wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.container-dashboard {
+  max-width: 306px;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+  background: #fff;
+}
+
