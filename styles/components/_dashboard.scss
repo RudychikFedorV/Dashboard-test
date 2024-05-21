@@ -1,10 +1,10 @@
 .dashboard {
-  padding: 37px 28px 76px;
-  margin-bottom: 64px;
+  padding: 37px 0 76px;
   &-header {
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 64px;
     transition: var(--transition);
     &:hover {
       scale: 1.05;
@@ -24,6 +24,31 @@
       color: #838383;
       margin-left: -4px;
       margin-bottom: -10px;
+    }
+  }
+
+  //  nav
+  &__ul {
+    display: grid;
+    gap: 40px;
+  }
+  &__a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: var(--transition);
+    &:hover {
+      background: #5932ea;
+    }
+    &-name {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: -0.01em;
+      color: #9197b3;
+    }
+    &-arrow {
+      margin-left: auto;
     }
   }
 }

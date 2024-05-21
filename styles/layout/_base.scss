@@ -9,10 +9,31 @@ body {
 .wrapper {
   max-width: 1440px;
   margin-inline: auto;
+  padding-top: 50px;
 }
 .container-dashboard {
   max-width: 306px;
   box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
   background: #fff;
+  padding: 0 28px;
 }
+.active {
+  padding: 11px 8px;
+  background: #5932ea;
+  border-radius: 8px;
+  width: 250px;
+  height: 46px;
 
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+.not-active {
+  // width: 250px;
+  // height: 46px;
+  background: #fff;
+  padding: 11px 8px 11px;
+  border-radius: 8px;
+}
